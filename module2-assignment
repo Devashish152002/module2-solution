@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="ytf-8">
+<titel>Responsive Layout</titel>
+<style>
+*{
+  box-sizing: board-box;
+}
+h1{
+margin-bottom:15px;
+}
+p{
+ board:1px solid black;
+ background-colou:gray;
+ width:90%;
+ height:150px;
+ margin-right:auto;
+ margin-lrft:auto;
+ font-family:boult;
+ colour:black;
+ }
+.row{
+width:100%;
+}
+@media (min -width: 2976px){
+.col-lg-1,.col-lg-2,.col-lg-3{
+float: left:
+border:1px solid black;
+}
+.col-lg-1{
+width:33.34%;
+}
+.col-lg-2{
+width:66.67%;
+}
+.col-lg-3{
+width:100%;
+}
+}
+</style>
+<h1>Our Menu</h1>
+<div class="row">
+<div class="col-lg-3"><p>Chicken</p></div>
+<div class="col-lg-3"><p>beef</p></div>
+<div class="col-lg-3"><p>sushi</p></div>
+</div>
+</body>
+</html>
